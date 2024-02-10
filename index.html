@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Mattice Heyzak">
+    <title>Maze generator</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/screen.css">
+
+    <script type="module" src="./assets/js/main.js"></script>
 </head>
 <body>
-    
+    <h1>Maze generator</h1>
+    <form>
+        <label for="maze-size">Choose custom maze size</label>
+        <input id="maze-size" type="number">
+        <button>Generate maze</button>
+    </form>
+    <canvas id="maze-canvas"></canvas>
 </body>
 </html>
