@@ -1,0 +1,53 @@
+:root {
+    --background-color: #2D1E62;
+    --border-and-walls-color: #DCD384;
+    --title-color: #A8517E;
+    --label-color: #DEB365;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: var(--label-color);
+    font-size: 2rem;
+}
+
+input {
+    border: var(--label-color) solid 0.1rem;
+    border-radius: 0.1rem;
+    background-color: var(--background-color);
+    color: var(--label-color);
+    margin: 0.25rem;
+}
+
+button {
+    display: block;
+}
+
+h1 {
+    color: var(--title-color);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#maze-canvas {
+    background-color: black;
+    margin: 1rem;
+    border: solid var(--border-and-walls-color) 0.2rem;
+    border-radius: 0.2rem;
+}
